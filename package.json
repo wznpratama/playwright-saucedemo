@@ -1,0 +1,32 @@
+{
+  "name": "playwright-saucedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:positive": "playwright test tests/positive --headed",
+    "test:negative": "playwright test tests/negative --headed",
+    "test:all:headed": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wznpratama/playwright-saucedemo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wznpratama/playwright-saucedemo/issues"
+  },
+  "homepage": "https://github.com/wznpratama/playwright-saucedemo#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
