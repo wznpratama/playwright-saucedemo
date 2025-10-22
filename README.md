@@ -1,10 +1,7 @@
-# mper-playwright-typescript-web-demo
+# Playwright-saucedemo
 
 Demo automation project using [Playwright](https://playwright.dev/) + TypeScript  
 Test domain: [https://www.saucedemo.com/](https://www.saucedemo.com/)  
-Covers:
-- ✅ 
-
 ---
 
 ## 🚀 Setup
