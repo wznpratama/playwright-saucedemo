@@ -1,4 +1,5 @@
 # Playwright-saucedemo
+# Created by wizan
 
 Demo automation project using [Playwright](https://playwright.dev/) + TypeScript  
 Test domain: [https://www.saucedemo.com/](https://www.saucedemo.com/)  
